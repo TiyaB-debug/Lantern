@@ -1,0 +1,10 @@
+/* Sign-in differences only; all common sizing is in signup.module.css. */
+.card { min-height: 0; }
+.description { max-width: 640px; }
+.toggle { font-family: inherit; font-size: 15px; font-weight: 600; color: var(--auth-blue); }
+.recovery { align-self: flex-end; color: var(--auth-blue); font-size: 15px; font-weight: 500; }
+.recovery:hover { text-decoration: underline; }
+.alternative { display: flex; flex-direction: column; gap: 14px; padding-top: 18px; border-top: 1px solid var(--auth-border); text-align: center; color: var(--auth-muted); font-size: 15px; }
+.createAccount { min-height: var(--ui-control-height, 48px); padding: 12px 20px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--auth-border); border-radius: 12px; color: var(--auth-blue); font-size: 16px; font-weight: 600; }
+.createAccount:hover { background: var(--panel, #f1f4fa); }
+

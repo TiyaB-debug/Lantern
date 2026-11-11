@@ -1,0 +1,13 @@
+/* Shared compact scale for every new Lantern page. */
+:root {
+  --ui-content-width: 1200px;
+  --ui-gutter: clamp(20px, 3vw, 40px);
+  --ui-body: 16px;
+  --ui-small: 14px;
+  --ui-title: clamp(30px, 3vw, 40px);
+  --ui-section-title: clamp(24px, 2.2vw, 30px);
+  --ui-section-gap: 32px;
+  --ui-card-padding: clamp(20px, 2vw, 28px);
+  --ui-control-height: 48px;
+  --ui-radius: 14px;
+}

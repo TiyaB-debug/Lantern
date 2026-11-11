@@ -2,8 +2,8 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import LanternNav from "@/components/LanternNav";
-import { questions } from "@/lib/supabase/matching.mjsching.mjs";
-import { readProfile, saveProfile } from "@/lib/supabase/storagee/storage";
+import { questions } from "@/lib/matching.mjs";
+import { readProfile, saveProfile } from "@/lib/storage";
 const options = [
   "Not interested",
   "A little interested",

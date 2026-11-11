@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { interestProfile, rankOccupations } from "@/lib/supabase/matching.mjsching.mjs";
-import { PROFILE_KEY, readProfile, readSaved, writeSaved } from "@/lib/supabase/storagee/storage";
+import { interestProfile, rankOccupations } from "@/lib/matching.mjs";
+import { PROFILE_KEY, readProfile, readSaved, writeSaved } from "@/lib/storage";
+import type { Occupation, Profile } from "@/lib/types";
 import type { Occupation, Profile } from "@/lib/types";
 export default function CareerExplorer({
   savedOnly = false,
